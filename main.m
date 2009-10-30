@@ -3,7 +3,6 @@
 //  AsyncTestDemo
 //
 //  Created by Robert Spychala on 10/30/09.
-//  Copyright Barnes & Noble 2009 2009. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
