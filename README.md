@@ -1,6 +1,6 @@
 # Demos an example approach of unit testing iPhone asynchronous web-services.
 
-This demo application to test ``DataApi.m``
+This demo application tests ``DataApi.m``
 
 ## Using
 
