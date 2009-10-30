@@ -192,7 +192,7 @@ int main(int argc, char *argv[]) {
         
     } else {
         
-        [self setMessage:[NSIndexPath indexPathForRow:0 inSection:0] messageSuffix:@" ...fail"];
+        [self setMessage:[NSIndexPath indexPathForRow:0 inSection:0] messageSuffix:@" ... fail"];
     }
     
     [self performSelector:@selector(test_2:) withObject:nil afterDelay:0];
@@ -250,7 +250,7 @@ int main(int argc, char *argv[]) {
         
     } else {
         
-        [self setMessage:[NSIndexPath indexPathForRow:1 inSection:0] messageSuffix:@" ...fail"];
+        [self setMessage:[NSIndexPath indexPathForRow:1 inSection:0] messageSuffix:@" ... fail"];
     }
 }
 

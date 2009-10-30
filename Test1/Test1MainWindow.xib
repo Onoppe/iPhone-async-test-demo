@@ -79,7 +79,7 @@
 							<float key="IBUISectionFooterHeight">22</float>
 						</object>
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="417178116">
-							<string key="IBUITitle">Item</string>
+							<string key="IBUITitle">DataApi UnitTest</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="780911383"/>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
@@ -269,7 +269,7 @@
 							<string>UIWindow</string>
 						</object>
 					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="697313724">
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="52281724">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">Test1/Test1TableViewController.h</string>
 					</object>
@@ -277,7 +277,7 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">Test1TableViewController</string>
 					<string key="superclassName">UITableViewController</string>
-					<reference key="sourceIdentifier" ref="697313724"/>
+					<reference key="sourceIdentifier" ref="52281724"/>
 				</object>
 			</object>
 			<object class="NSMutableArray" key="referencedPartialClassDescriptionsV3.2+">
