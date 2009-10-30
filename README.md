@@ -1,14 +1,20 @@
 # Demos an example approach of unit testing iPhone asynchronous web-services.
 
-This demo application to test DataApi.m
+This demo application to test ``DataApi.m``
 
 ## Using
 
 To use copy the Test1 target into your code and follow the convention in Test1AppDelegate.
 
+In your NSURLController add the following to ``connectionDidFinishLoading:`` method
+
+``#ifdef UNIT_TEST
+[[NSNotificationCenter defaultCenter] postNotificationName:@"unitTestFinished" object:nil];
+#endif``
+
 ## Etc
 
-Inspiration: Gabriel Handford's http://github.com/gabriel/gh-unit
+Inspiration: Gabriel Handford's (http://github.com/gabriel/gh-unit)
 
 # TODO:
 
