@@ -26,3 +26,8 @@ This is just a beginning of a full featured unit testing framework.
 - make setup of new tests seamless
 - make chaining of tests seamless
 - better documentation
+
+
+# twitter
+
+follow me on twitter: [@robspychala](http://twitter.com/robspychala)
