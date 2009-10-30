@@ -1,8 +1,12 @@
 # Demos an example approach of unit testing iPhone asynchronous web-services.
 
-This demo application test DataApi.m
+This demo application to test DataApi.m
+
+## Using
 
 To use copy the Test1 target into your code and follow the convention in Test1AppDelegate.
+
+## Etc
 
 Inspiration: Gabriel Handford's http://github.com/gabriel/gh-unit
 
