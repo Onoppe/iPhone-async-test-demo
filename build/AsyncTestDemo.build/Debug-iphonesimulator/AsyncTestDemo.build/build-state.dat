@@ -1,281 +1,0 @@
-TAsyncTestDemo
-v7
-r0
-t278693105.084988
-cCheck dependencies
-cProcessInfoPlistFile /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/Info.plist AsyncTestDemo-Info.plist
-cCompileXIB /Users/Robert/Desktop/AsyncTestDemo/MainWindow.xib
-cCompileXIB /Users/Robert/Desktop/AsyncTestDemo/RootViewController.xib
-cProcessPCH /var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch.gch AsyncTestDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/main.o /Users/Robert/Desktop/AsyncTestDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemoAppDelegate.o /Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/RootViewController.o /Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/DataApi.o /Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo normal i386
-cGenerateDSYMFile /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app.dSYM /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo
-cTouch /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
-c000000004AAFB12800000000000000EE
-t1253028136
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004A821911000000000026EE30
-t1250040081
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A765094000000000027E880
-t1249267860
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A7650820000000000001355
-t1249267842
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A7C6E970000000000000788
-t1249668759
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A7C6F5900000000016721E0
-t1249668953
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/Availability.h
-c000000004A7653D100000000000019F9
-t1249268689
-s6649
-
-N/Users/Robert/Desktop/AsyncTestDemo/AsyncTestDemo_Prefix.pch
-c000000004AEB158F000000000000014C
-t1256920463
-s332
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.h
-c000000004AEB161B0000000000000195
-t1256920603
-s405
-
-N/Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m
-c000000004AEB160B0000000000000317
-t1256920587
-s791
-i"AsyncTestDemoAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.h
-c000000004AEB1D370000000000000124
-t1256922423
-s292
-i<Foundation/Foundation.h>
-
-N/Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m
-c000000004AEB1E7E0000000000000BF3
-t1256922750
-s3059
-i"DataApi.h"
-
-N/Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.h
-c000000004AEB1A0700000000000000C9
-t1256921607
-s201
-i"DataApi.h"
-
-N/Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m
-c000000004AEB23850000000000000ECB
-t1256924037
-s3787
-i"RootViewController.h"
-
-N/Users/Robert/Desktop/AsyncTestDemo/MainWindow.xib
-c000000004AEB158F0000000000002C79
-t1256920463
-s11385
-
-N/Users/Robert/Desktop/AsyncTestDemo/RootViewController.xib
-c000000004AEB158F0000000000004327
-t1256920463
-s17191
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemo.LinkFileList
-c000000004AEB39FF0000000000000231
-t1256929791
-s561
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemoAppDelegate.o
-t1256929792
-s39956
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/DataApi.o
-t1256929792
-s13452
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/RootViewController.o
-t1256929792
-s39360
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/main.o
-t1256929792
-s5936
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app
-t1256929792
-s238
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app.dSYM
-t1256929792
-s102
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo
-t1256929792
-s22744
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/Info.plist
-t1256929791
-s586
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/MainWindow.nib
-t1256929791
-s1496
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/PkgInfo
-t1256929791
-s8
-
-N/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/RootViewController.nib
-t1256929791
-s984
-
-N/Users/Robert/Desktop/AsyncTestDemo/main.m
-c000000004AEB24A30000000000000138
-t1256924323
-s312
-i<UIKit/UIKit.h>
-
-N/var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch.gch
-t1256920818
-s13034960
-
-NAsyncTestDemo-Info.plist
-c000000004AEB158F000000000000038D
-t1256920463
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies278693105#278693105#0(0"0(0#1#0"4300882208#0"0#
-
-CCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemoAppDelegate.o /Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s278622591.602975
-e278622592.350036
-r1
-xCompileC
-xbuild/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemoAppDelegate.o
-x/Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m278622591#278622592#0(0"0(0#0#70"/Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m4300882208#1992"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-generated-files.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-own-target-headers.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-all-target-headers.hmap -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-project-headers.hmap -F/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator -I/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/include -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources/i386 -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources -include /var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch -c /Users/Robert/Desktop/AsyncTestDemo/Classes/AsyncTestDemoAppDelegate.m -o /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemoAppDelegate.o0#
-
-CCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/DataApi.o /Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s278622592.350177
-e278622592.433767
-r1
-xCompileC
-xbuild/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/DataApi.o
-x/Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m278622592#278622592#0(0"0(0#0#53"/Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m4300882208#1958"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-generated-files.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-own-target-headers.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-all-target-headers.hmap -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-project-headers.hmap -F/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator -I/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/include -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources/i386 -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources -include /var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch -c /Users/Robert/Desktop/AsyncTestDemo/Classes/DataApi.m -o /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/DataApi.o0#
-
-CCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/RootViewController.o /Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s278622592.312044
-e278622592.445625
-r1
-xCompileC
-xbuild/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/RootViewController.o
-x/Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m278622592#278622592#0(0"0(0#0#64"/Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m4300882208#1980"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-generated-files.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-own-target-headers.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-all-target-headers.hmap -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-project-headers.hmap -F/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator -I/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/include -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources/i386 -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources -include /var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch -c /Users/Robert/Desktop/AsyncTestDemo/Classes/RootViewController.m -o /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/main.o /Users/Robert/Desktop/AsyncTestDemo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s278622591.601909
-e278622592.311947
-r1
-xCompileC
-xbuild/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/main.o
-x/Users/Robert/Desktop/AsyncTestDemo/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/Robert/Desktop/AsyncTestDemo/main.m278622591#278622592#0(0"0(0#0#42"/Users/Robert/Desktop/AsyncTestDemo/main.m4300882208#1944"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-generated-files.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-own-target-headers.hmap -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-all-target-headers.hmap -iquote /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/AsyncTestDemo-project-headers.hmap -F/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator -I/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/include -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources/i386 -I/Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/DerivedSources -include /var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch -c /Users/Robert/Desktop/AsyncTestDemo/main.m -o /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/Robert/Desktop/AsyncTestDemo/MainWindow.xib
-s278622591.289834
-e278622591.601774
-r1
-xCompileXIB
-x/Users/Robert/Desktop/AsyncTestDemo/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib278622591#278622591#0(0"0(0#0#50"/Users/Robert/Desktop/AsyncTestDemo/MainWindow.xib4300882208#477"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/MainWindow.nib /Users/Robert/Desktop/AsyncTestDemo/MainWindow.xib0#
-
-CCompileXIB /Users/Robert/Desktop/AsyncTestDemo/RootViewController.xib
-s278622591.290538
-e278622591.599390
-r1
-xCompileXIB
-x/Users/Robert/Desktop/AsyncTestDemo/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib278622591#278622591#0(0"0(0#0#58"/Users/Robert/Desktop/AsyncTestDemo/RootViewController.xib4300882208#493"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/RootViewController.nib /Users/Robert/Desktop/AsyncTestDemo/RootViewController.xib0#
-
-CGenerateDSYMFile /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app.dSYM /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo
-s278622592.475961
-e278622592.493369
-r1
-xGenerateDSYMFile
-x/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app.dSYM
-x/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/AsyncTestDemo.app.dSYM build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo278622592#278622592#0(0"0(0#0#95"/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo4300882208#392"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo -o /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app.dSYM0#
-
-CLd /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo normal i386
-s278622592.445705
-e278622592.475836
-r1
-xLd
-x/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo
-xnormal
-xi386
-lSLF07#2@100"Link /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo278622592#278622592#0(0"0(0#0#0"4300882208#877"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator -F/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator -filelist /Users/Robert/Desktop/AsyncTestDemo/build/AsyncTestDemo.build/Debug-iphonesimulator/AsyncTestDemo.build/Objects-normal/i386/AsyncTestDemo.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/AsyncTestDemo0#
-
-CProcessInfoPlistFile /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/Info.plist AsyncTestDemo-Info.plist
-s278622591.284715
-e278622591.289767
-r1
-xProcessInfoPlistFile
-x/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/Info.plist
-xAsyncTestDemo-Info.plist
-lSLF07#2@32"Process AsyncTestDemo-Info.plist278622591#278622591#0(0"0(0#0#60"/Users/Robert/Desktop/AsyncTestDemo/AsyncTestDemo-Info.plist4300882208#488"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AsyncTestDemo-Info.plist -genpkginfo /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app/Info.plist0#
-
-CProcessPCH /var/folders/KP/KPOXluWzH+4kZyiUL8jAIU+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/AsyncTestDemo_Prefix-bscpbwiqgywgcsdecdbsdfprzobi/AsyncTestDemo_Prefix.pch.gch AsyncTestDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CTouch /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app
-s278622592.493450
-e278622592.496330
-r1
-xTouch
-x/Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app
-lSLF07#2@87"Touch /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app278622592#278622592#0(0"0(0#0#0"4300882208#278"    cd /Users/Robert/Desktop/AsyncTestDemo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Robert/Desktop/AsyncTestDemo/build/Debug-iphonesimulator/AsyncTestDemo.app0#
-
