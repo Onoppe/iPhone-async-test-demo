@@ -89,9 +89,6 @@ int main(int argc, char *argv[]) {
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (testNames == nil)
-        testNames = [[NSMutableArray arrayWithObjects:@"test apple.com for Apple", @"test apple.com for tablet", nil] retain];
-    
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -100,6 +97,7 @@ int main(int argc, char *argv[]) {
     }
     
     cell.textLabel.text = [testNames objectAtIndex:indexPath.row];
+    cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     
     return cell;   
 }
@@ -119,17 +117,22 @@ int main(int argc, char *argv[]) {
     cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix];
     [testNames replaceObjectAtIndex:indexPath.row withObject:cell.textLabel.text];
     [cell setNeedsDisplay];
+    
+    if ([testNames count] > indexPath.row+1) {
+        
+        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row+1 inSection:indexPath.section] atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+    }
+}
+
+-(void) viewDidLoad {
+
+    testNames = [[NSMutableArray arrayWithObjects:@"test apple.com for Apple", @"test apple.com for Tablet", nil] retain];
 }
 
 -(void) startTests {
     
     [self performSelector:@selector(test_1:) withObject:nil afterDelay:0];
 }
-
-
-
-
-
 
 
 
