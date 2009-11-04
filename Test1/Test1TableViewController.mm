@@ -112,17 +112,20 @@ int main(int argc, char *argv[]) {
 }
 
 -(void) setMessage:(NSIndexPath*)indexPath messageSuffix:(NSString*) messageSuffix {
-
-    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
-    cell.textLabel.text = [NSString stringWithFormat:@"%d) %@ %@", indexPath.row+1, [testNames objectAtIndex:indexPath.row], messageSuffix];
-    [testNames replaceObjectAtIndex:indexPath.row withObject:[NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix]];
     
-    [cell setNeedsDisplay];
+    [testNames replaceObjectAtIndex:indexPath.row withObject:[NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix]];
     
     if ([testNames count] > indexPath.row+1) {
         
         [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row+1 inSection:indexPath.section] atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-    }
+    }  
+    
+    UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
+    if (cell == nil) return;
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"%d) %@", indexPath.row+1, [testNames objectAtIndex:indexPath.row]];
+    
+    [cell setNeedsDisplay];
 }
 
 -(void) viewDidLoad {
