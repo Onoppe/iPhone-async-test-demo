@@ -114,8 +114,9 @@ int main(int argc, char *argv[]) {
 -(void) setMessage:(NSIndexPath*)indexPath messageSuffix:(NSString*) messageSuffix {
 
     UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
-    cell.textLabel.text = [NSString stringWithFormat:@"%d) %@", indexPath.row+1, [NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix]];
-    [testNames replaceObjectAtIndex:indexPath.row withObject:cell.textLabel.text];
+    cell.textLabel.text = [NSString stringWithFormat:@"%d) %@ %@", indexPath.row+1, [testNames objectAtIndex:indexPath.row], messageSuffix];
+    [testNames replaceObjectAtIndex:indexPath.row withObject:[NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix]];
+    
     [cell setNeedsDisplay];
     
     if ([testNames count] > indexPath.row+1) {
