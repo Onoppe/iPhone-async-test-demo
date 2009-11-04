@@ -96,7 +96,7 @@ int main(int argc, char *argv[]) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = [testNames objectAtIndex:indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%d) %@", indexPath.row+1, [testNames objectAtIndex:indexPath.row]];
     cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     
     return cell;   
@@ -114,7 +114,7 @@ int main(int argc, char *argv[]) {
 -(void) setMessage:(NSIndexPath*)indexPath messageSuffix:(NSString*) messageSuffix {
 
     UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:indexPath];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix];
+    cell.textLabel.text = [NSString stringWithFormat:@"%d) %@", indexPath.row+1, [NSString stringWithFormat:@"%@ %@", [testNames objectAtIndex:indexPath.row], messageSuffix]];
     [testNames replaceObjectAtIndex:indexPath.row withObject:cell.textLabel.text];
     [cell setNeedsDisplay];
     
